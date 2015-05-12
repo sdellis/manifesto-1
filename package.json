@@ -1,18 +1,18 @@
 {
-  "name": "manifesto-client",
+  "name": "manifesto",
   "description": "A modular interface for IIIF manifests, modelling them as JS objects with getter and setter methods and convenience "query" methods. ",
   "version": "0.0.0",
-  "homepage": "ient.github.io",
-  "bugs": "https://github.com/aeschylus/manifesto-client/issues",
+  "homepage": "https://github.com/IIIF/manifesto",
+  "bugs": "https://github.com/IIIF/manifesto/issues",
   "license": "Apache 2.0",
-  "main": "lib/manifesto-client.js",
+  "main": "lib/manifesto.js",
   "author": {
     "name": "Drew Winget",
     "email": "scipioaffricanus@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aeschylus/manifesto-client"
+    "url": "https://github.com/IIIF/manifesto"
   },
   "keywords":[],
   "dependencies": {
