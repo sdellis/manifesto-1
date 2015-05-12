@@ -1,0 +1,41 @@
+{
+  "name": "manifesto-client",
+  "description": "A modular interface for IIIF manifests, modelling them as JS objects with getter and setter methods and convenience "query" methods. ",
+  "version": "0.0.0",
+  "homepage": "ient.github.io",
+  "bugs": "https://github.com/aeschylus/manifesto-client/issues",
+  "license": "Apache 2.0",
+  "main": "lib/manifesto-client.js",
+  "author": {
+    "name": "Drew Winget",
+    "email": "scipioaffricanus@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aeschylus/manifesto-client"
+  },
+  "keywords":[],
+  "dependencies": {
+    "lodash": "3.8.0",
+    "q": "1.4.0",
+    "debug": "2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-util": "^3.0.1",
+    "gulp-bump": "^0.1.11",
+    "gulp-jscs": "^1.1.2",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.1.0",
+    "gulp-istanbul": "^0.5.0",
+    "coveralls": "^2.11.1",
+    "should": "^4.0.4",
+    "jshint-stylish": "^0.4.0",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-plumber": "^0.6.5"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  }
+}
