@@ -1,6 +1,6 @@
 {
   "name": "manifesto",
-  "description": "A modular interface for IIIF manifests, modelling them as JS objects with getter and setter methods and convenience "query" methods. ",
+  "description": "A modular interface for IIIF manifests, modelling them as JS objects with getter and setter methods and convenience 'query' methods. ",
   "version": "0.0.0",
   "homepage": "https://github.com/IIIF/manifesto",
   "bugs": "https://github.com/IIIF/manifesto/issues",
