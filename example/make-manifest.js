@@ -13,4 +13,4 @@ var Manifest = require('../lib/manifest-factory.js');
 var m = new Manifest();
 m.canvases.push("Page 1");
 
-console.log(m.id); // "1"
+console.log(m.getTotalCanvases()); // "1"
