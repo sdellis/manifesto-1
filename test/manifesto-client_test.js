@@ -1,6 +1,6 @@
 'use strict';
 
-var manifestoClient = require('../');
+var manifestoClient = require('../lib/manifesto-client');
 var assert = require('should');
 
 describe('manifestoClient', function () {

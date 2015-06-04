@@ -8,6 +8,6 @@
 
 'use strict';
 
-var manifestoClient = require('../');
+var manifestoClient = require('../lib/manifesto-client.js');
 
 console.log(manifestoClient()); // "awesome"
